@@ -6,6 +6,7 @@ import logo from "../Assets/logo.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { GiSkills } from "react-icons/gi";
 import {
   AiFillHeart,
   AiOutlineHome,
@@ -71,6 +72,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiSkills style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -91,7 +102,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/candicechu0126/portfolio"
                 target="_blank"
@@ -100,7 +111,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillHeart style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
