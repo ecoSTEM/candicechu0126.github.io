@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Row } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import JoyAether from "../../Assets/CompanyLogo/joyaether.png";
 import Hkutdc from "../../Assets/CompanyLogo/hktdc.png";
 import YGN from "../../Assets/CompanyLogo/ygn.png";
@@ -12,17 +12,12 @@ export const Title = styled.text`
   font-family: sans-serif;
 `;
 
-export const Home3 = styled.div`
-  position: relative;
-  text-align: center;
-`;
-
 export default function IndustryExp() {
   return (
-    <Home3 fluid className="home-about-section">
+    <Container fluid className="home-about-section">
       <Title>Industry Experience</Title>
       <Row
-        style={{ justifyContent: "center", paddingTop: "80px", gap: "100px" }}
+        style={{ justifyContent: "center", paddingTop: "80px", gap: "50px" }}
       >
         <img
           src={JoyAether}
@@ -53,6 +48,6 @@ export default function IndustryExp() {
           style={{ width: "10rem", height: "8rem", alignSelf: "center" }}
         />
       </Row>
-    </Home3>
+    </Container>
   );
 }
