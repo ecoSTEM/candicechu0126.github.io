@@ -634,7 +634,7 @@ button:focus {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .scroller {
@@ -644,6 +644,7 @@ button:focus {
   scrollbar-width: none;
   -ms-overflow-style: initial;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .scroller::-webkit-scrollbar {
