@@ -40,7 +40,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="AI Auto Bus"
+              title="Auto Driving Bus"
               description="AI Auto Bus"
               link=""
             />
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Smart Pet Carrier"
-              description="AI Auto Bus"
+              description="AI Auto Driving Bus"
               link=""
             />
           </Col>
