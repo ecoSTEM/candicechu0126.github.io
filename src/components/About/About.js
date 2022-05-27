@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
 import About2 from "./About2";
 import aboutImg from "../../Assets/about.jpg";
@@ -8,7 +7,6 @@ import aboutImg from "../../Assets/about.jpg";
 function About() {
   return (
     <Container fluid className="about-section">
-      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

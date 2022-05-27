@@ -4,6 +4,15 @@ import ProjectCard from "./ProjectCards";
 import editor from "../../Assets/Projects/fyp.png";
 import powerFitness from "../../Assets/Projects/fyp.png";
 import bitsOfCode from "../../Assets/Projects/fyp.png";
+import styled from "styled-components";
+
+export const Description = styled.div`
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+`;
+
+export const Feature = styled.text``;
 
 function Projects() {
   return (
@@ -21,7 +30,13 @@ function Projects() {
               imgPath={powerFitness}
               isBlog={false}
               title="Power Fitness"
-              description="Indoor fitness monitoring and advisory website based on human pose estimation"
+              description={
+                <Description>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                </Description>
+              }
               link=""
             />
           </Col>
@@ -31,7 +46,13 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Smart Garbage Bin"
-              description="My"
+              description={
+                <Description>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                </Description>
+              }
               link=""
             />
           </Col>
@@ -40,10 +61,32 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Auto Driving Bus"
-              description="AI Auto Bus"
+              title="Auto Driving Shuttle Bus"
+              description={
+                <Description>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                  <Feature>App</Feature>
+                </Description>
+              }
               link=""
             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Student Kit"
+              description={
+                <Row>
+                  <Col>App</Col>
+                  <Col>App</Col>
+                  <Col>App</Col>
+                </Row>
+              }
+              link=""
+            ></ProjectCard>
           </Col>
 
           <Col md={4} className="project-card">
@@ -51,7 +94,13 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Smart Pet Carrier"
-              description="AI Auto Driving Bus"
+              description={
+                <Container>
+                  <Feature>Mobile App</Feature>
+                  <Feature>Food Capacity Monitoring</Feature>
+                  <Feature>Air Quality Monitoring</Feature>
+                </Container>
+              }
               link=""
             />
           </Col>
