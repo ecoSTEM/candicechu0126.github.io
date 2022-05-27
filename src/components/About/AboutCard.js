@@ -41,7 +41,6 @@ function AboutCard() {
               <AiFillHeart /> Coffee Lover
             </li>
           </ul>
-
           <p style={{ color: "#a0afff" }}>"Try to believe in yourself!" </p>
           <footer className="blockquote-footer">Candice CHU</footer>
         </blockquote>

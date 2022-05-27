@@ -1,18 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/fyp.png";
-import emotion from "../../Assets/Projects/fyp.png";
 import editor from "../../Assets/Projects/fyp.png";
 import powerFitness from "../../Assets/Projects/fyp.png";
-import suicide from "../../Assets/Projects/fyp.png";
 import bitsOfCode from "../../Assets/Projects/fyp.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My <strong className="purple">Projects </strong>
@@ -46,6 +41,16 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="AI Auto Bus"
+              description="AI Auto Bus"
+              link=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Smart Pet Carrier"
               description="AI Auto Bus"
               link=""
             />

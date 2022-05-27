@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Container } from "react-bootstrap";
 function About2() {
   return (
-    <div>
-      <div>
+    <Container>
+      <Container>
         <h1 style={styles.title}>Education</h1>
         <ul style={{ textAlign: "justify", justifyContent: "space-around" }}>
           <h4>Bachelor in Electronic Engineering</h4>
@@ -12,8 +12,8 @@ function About2() {
           </div>
           <li>Anticipated graduation year: 2022</li>
         </ul>
-      </div>
-      <div>
+      </Container>
+      <Container>
         <h1 style={styles.title}>Experience</h1>
         <div style={styles.rowWork}>
           <div style={{ flex: 1 }}>
@@ -70,8 +70,8 @@ function About2() {
             </ul>
           </div>
         </div>
-      </div>
-      <div>
+      </Container>
+      <Container>
         <h1 style={styles.title}>Honor & Awards</h1>
         <ul style={{ textAlign: "justify", justifyContent: "space-around" }}>
           <li>Pearson LCCI Certificate (HKVEP)</li>
@@ -81,8 +81,8 @@ function About2() {
           <li>American Women’s Association Scholarship</li>
           <li>Rotary club of Channel Islands Scholarship</li>
         </ul>
-      </div>
-      <div>
+      </Container>
+      <Container>
         <h1 style={styles.title}>Activity</h1>
         <ul style={{ textAlign: "justify", justifyContent: "space-around" }}>
           <li>Environmental Ambassador Volunteer</li>
@@ -93,8 +93,8 @@ function About2() {
             (Position: Internal Vice-Chairperson)
           </li>
         </ul>
-      </div>
-    </div>
+      </Container>
+    </Container>
   );
 }
 
