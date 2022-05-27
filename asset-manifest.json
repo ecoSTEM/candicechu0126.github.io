@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4172b18c.css",
-    "main.js": "/static/js/main.07751ed4.js",
+    "main.css": "/static/css/main.cfc16f60.css",
+    "main.js": "/static/js/main.586c0f29.js",
     "static/js/787.8dd12163.chunk.js": "/static/js/787.8dd12163.chunk.js",
     "static/media/candiceImg.jpg": "/static/media/candiceImg.ff65935f7c5cff7245ac.jpg",
     "static/media/about.jpg": "/static/media/about.e69b0ead85ad315b4498.jpg",
@@ -14,6 +14,7 @@
     "static/media/rasperrypi.png": "/static/media/rasperrypi.31c9159173ddb60527ea.png",
     "static/media/HC-SR04.png": "/static/media/HC-SR04.0dd9929f9b9869313d18.png",
     "static/media/dcmotor.png": "/static/media/dcmotor.c007fa0f900840e0b5f6.png",
+    "static/media/fyp.png": "/static/media/fyp.e4da4bf882e21bfac739.png",
     "static/media/mq135.png": "/static/media/mq135.2463de9e5421b10ff907.png",
     "static/media/ir.png": "/static/media/ir.dde34990bfd164318d2d.png",
     "static/media/3-Axis.png": "/static/media/3-Axis.23af2664905232f31d25.png",
@@ -21,17 +22,12 @@
     "static/media/DHT11.png": "/static/media/DHT11.d0405a05ddb5b1a10f07.png",
     "static/media/L298N.png": "/static/media/L298N.86a039daa6009056b841.png",
     "static/media/servomotor.png": "/static/media/servomotor.21611f747860c926278a.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.ba9458794dca1c746ef2.png",
     "static/media/candiceCHU_CV.pdf": "/static/media/candiceCHU_CV.871fdf916d2c22d7f8e9.pdf",
-    "static/media/hktdc.png": "/static/media/hktdc.ba9e9c33d20f01c283b5.png",
-    "static/media/blog.png": "/static/media/blog.52102140f369ea233010.png",
-    "static/media/chatify.png": "/static/media/chatify.9373eddae1a258056c35.png",
-    "static/media/leaf.png": "/static/media/leaf.4c15d6eb3fc75cfef85b.png",
     "static/media/gamemaker.png": "/static/media/gamemaker.802b8cd1c961859f45e7.png",
+    "static/media/hktdc.png": "/static/media/hktdc.6019396c35f52df47054.png",
     "static/media/joyaether.png": "/static/media/joyaether.ace970d94654f49cdac8.png",
     "static/media/sevensegment.png": "/static/media/sevensegment.573c2ee97b65f92c5807.png",
     "static/media/avatar.png": "/static/media/avatar.3386ef17805bcb515359.png",
-    "static/media/suicide.png": "/static/media/suicide.b72f1f9ffeb4775a7803.png",
     "static/media/msolution.png": "/static/media/msolution.f26c8f93d122f45a9378.png",
     "static/media/codeblocks.png": "/static/media/codeblocks.9cccf4a83aaed7e1c538.png",
     "static/media/tinkercad.png": "/static/media/tinkercad.f72789a459d874f8470a.png",
@@ -39,15 +35,14 @@
     "static/media/home-bg.jpg": "/static/media/home-bg.0ba2bf6929be043c434d.jpg",
     "static/media/logo.svg": "/static/media/logo.c829d64f1f10afea06f2b2d58b324bc0.svg",
     "static/media/premiere-pro.png": "/static/media/premiere-pro.b4f3d13c8b2109b550b2.png",
-    "static/media/emotion.jpeg": "/static/media/emotion.e92e314a236f65bb89af.jpeg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.4172b18c.css.map": "/static/css/main.4172b18c.css.map",
-    "main.07751ed4.js.map": "/static/js/main.07751ed4.js.map",
+    "main.cfc16f60.css.map": "/static/css/main.cfc16f60.css.map",
+    "main.586c0f29.js.map": "/static/js/main.586c0f29.js.map",
     "787.8dd12163.chunk.js.map": "/static/js/787.8dd12163.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4172b18c.css",
-    "static/js/main.07751ed4.js"
+    "static/css/main.cfc16f60.css",
+    "static/js/main.586c0f29.js"
   ]
 }
