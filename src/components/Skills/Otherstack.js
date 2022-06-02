@@ -4,6 +4,7 @@ import ThinkerCard from "../../Assets/OtherAbout/tinkercad.png";
 import GameMaker from "../../Assets/OtherAbout/gamemaker.png";
 import PremierePro from "../../Assets/OtherAbout/premiere-pro.png";
 import CodeBlocks from "../../Assets/OtherAbout/codeblocks.png";
+import Designspark from "../../Assets/OtherAbout/designspark.png";
 function Otherstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -22,6 +23,10 @@ function Otherstack() {
       <Col xs={4} md={2} className="tech-icons">
         <div className="text">Code Blocks</div>
         <img src={CodeBlocks} alt="CodeBlocks" width="72px" height="50px" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div className="text">Design Spark</div>
+        <img src={Designspark} alt="CodeBlocks" width="72px" height="50px" />
       </Col>
     </Row>
   );

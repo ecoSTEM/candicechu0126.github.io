@@ -3,7 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import editor from "../../Assets/Projects/fyp.png";
 import powerFitness from "../../Assets/Projects/fyp.png";
+import studentkit from "../../Assets/Projects/studentkit.png";
 import bitsOfCode from "../../Assets/Projects/fyp.png";
+import petcarrier from "../../Assets/Projects/petcarrier.png";
 import styled from "styled-components";
 
 export const Description = styled.div`
@@ -21,9 +23,7 @@ function Projects() {
         <h1 className="project-heading">
           My <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -75,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={studentkit}
               isBlog={false}
               title="Student Kit"
               description={
@@ -91,13 +91,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={petcarrier}
               isBlog={false}
               title="Smart Pet Carrier"
               description={
                 <Container>
-                  <Feature>Mobile App</Feature>
-                  <Feature>Food Capacity Monitoring</Feature>
+                  <Feature> Mobile App</Feature>{" "}
+                  <Feature>Food Capacity Monitoring</Feature>{" "}
                   <Feature>Air Quality Monitoring</Feature>
                 </Container>
               }
