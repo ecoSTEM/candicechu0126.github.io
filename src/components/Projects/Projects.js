@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import editor from "../../Assets/Projects/fyp.png";
 import powerFitness from "../../Assets/Projects/fyp.png";
 import studentkit from "../../Assets/Projects/studentkit.png";
-import bitsOfCode from "../../Assets/Projects/fyp.png";
+import bin from "../../Assets/Projects/bin.png";
 import petcarrier from "../../Assets/Projects/petcarrier.png";
 import styled from "styled-components";
 
@@ -32,9 +32,10 @@ function Projects() {
               title="Power Fitness"
               description={
                 <Description>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
+                  With our website that solves health problems during the period
+                  of COVID-19, people could keep their states of both mental and
+                  physical health by conducting equipment-free exercises at home
+                  and avoiding injuries caused by a lack of fitness expertise.
                 </Description>
               }
               link=""
@@ -43,16 +44,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={bin}
               isBlog={false}
               title="Smart Garbage Bin"
-              description={
-                <Description>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
-                </Description>
-              }
+              description={<Description>Make Smart Life</Description>}
               link=""
             />
           </Col>
@@ -63,11 +58,7 @@ function Projects() {
               isBlog={false}
               title="Auto Driving Shuttle Bus"
               description={
-                <Description>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
-                  <Feature>App</Feature>
-                </Description>
+                <Description>Say goodbye for drive after drink</Description>
               }
               link=""
             />
@@ -79,11 +70,7 @@ function Projects() {
               isBlog={false}
               title="Student Kit"
               description={
-                <Row>
-                  <Col>App</Col>
-                  <Col>App</Col>
-                  <Col>App</Col>
-                </Row>
+                <Description>Say goodbye for drive after drink</Description>
               }
               link=""
             ></ProjectCard>
@@ -94,13 +81,7 @@ function Projects() {
               imgPath={petcarrier}
               isBlog={false}
               title="Smart Pet Carrier"
-              description={
-                <Container>
-                  <Feature> Mobile App</Feature>{" "}
-                  <Feature>Food Capacity Monitoring</Feature>{" "}
-                  <Feature>Air Quality Monitoring</Feature>
-                </Container>
-              }
+              description={<Description>Go out with your pet</Description>}
               link=""
             />
           </Col>
