@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7ec7026.css",
-    "main.js": "/static/js/main.6505c106.js",
+    "main.js": "/static/js/main.dbe79230.js",
     "static/js/787.8dd12163.chunk.js": "/static/js/787.8dd12163.chunk.js",
     "static/media/petcarrier.png": "/static/media/petcarrier.857ae14888e8c0f4c4af.png",
     "static/media/candiceImg.jpg": "/static/media/candiceImg.ff65935f7c5cff7245ac.jpg",
@@ -42,11 +42,11 @@
     "static/media/pre.svg": "/static/media/pre.45f9258a221b9868d575.svg",
     "index.html": "/index.html",
     "main.a7ec7026.css.map": "/static/css/main.a7ec7026.css.map",
-    "main.6505c106.js.map": "/static/js/main.6505c106.js.map",
+    "main.dbe79230.js.map": "/static/js/main.dbe79230.js.map",
     "787.8dd12163.chunk.js.map": "/static/js/787.8dd12163.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7ec7026.css",
-    "static/js/main.6505c106.js"
+    "static/js/main.dbe79230.js"
   ]
 }
