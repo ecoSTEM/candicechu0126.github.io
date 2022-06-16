@@ -14,8 +14,6 @@ export const Description = styled.div`
   padding: 5px;
 `;
 
-export const Feature = styled.text``;
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -38,7 +36,7 @@ function Projects() {
                   and avoiding injuries caused by a lack of fitness expertise.
                 </Description>
               }
-              link=""
+              data={"project1"}
             />
           </Col>
 
@@ -48,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Smart Garbage Bin"
               description={<Description>Make Smart Life</Description>}
-              link=""
+              data={"project2"}
             />
           </Col>
 
@@ -60,7 +58,7 @@ function Projects() {
               description={
                 <Description>Say goodbye for drive after drink</Description>
               }
-              link=""
+              data={"project3"}
             />
           </Col>
 
@@ -72,7 +70,7 @@ function Projects() {
               description={
                 <Description>Say goodbye for drive after drink</Description>
               }
-              link=""
+              data={"project4"}
             ></ProjectCard>
           </Col>
 
@@ -82,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="Smart Pet Carrier"
               description={<Description>Go out with your pet</Description>}
-              link=""
+              data={"project5"}
             />
           </Col>
         </Row>
