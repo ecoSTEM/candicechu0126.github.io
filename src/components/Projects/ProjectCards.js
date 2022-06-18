@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
-
+import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
@@ -12,10 +13,12 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Details"}
-        </Button>
+        <Nav.Link as={Link} to={props.data}>
+          <Button variant="primary">
+            <BiLinkExternal /> &nbsp;
+            {props.isBlog ? "View Blog" : "View Details"}
+          </Button>
+        </Nav.Link>
       </Card.Body>
     </Card>
   );

@@ -36,7 +36,7 @@ function Projects() {
                   and avoiding injuries caused by a lack of fitness expertise.
                 </Description>
               }
-              data={"project1"}
+              data="/powerfitness"
             />
           </Col>
 
@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Smart Garbage Bin"
               description={<Description>Make Smart Life</Description>}
-              data={"project2"}
+              data="/smartbin"
             />
           </Col>
 
@@ -58,7 +58,7 @@ function Projects() {
               description={
                 <Description>Say goodbye for drive after drink</Description>
               }
-              data={"project3"}
+              data="/autobus"
             />
           </Col>
 
@@ -70,7 +70,7 @@ function Projects() {
               description={
                 <Description>Say goodbye for drive after drink</Description>
               }
-              data={"project4"}
+              data="/studentkit"
             ></ProjectCard>
           </Col>
 
@@ -80,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="Smart Pet Carrier"
               description={<Description>Go out with your pet</Description>}
-              data={"project5"}
+              data="/petcarrier"
             />
           </Col>
         </Row>

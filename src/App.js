@@ -17,6 +17,11 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AutoBus from "../src/components/Projects/AutoBus";
+import PowerFitness from "../src/components/Projects/PowerFitness";
+import SmartBin from "../src/components/Projects/SmartBin";
+import StudentKit from "../src/components/Projects/StudentKit";
+import PetCarrier from "../src/components/Projects/PetCarrier";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +47,11 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/autobus" element={<AutoBus />} />
+          <Route path="/powerfitness" element={<PowerFitness />} />
+          <Route path="/smartbin" element={<SmartBin />} />
+          <Route path="/studentkit" element={<StudentKit />} />
+          <Route path="/petcarrier" element={<PetCarrier />} />
         </Routes>
         <Footer />
       </div>
