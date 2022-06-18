@@ -23,7 +23,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <div className="text">Visual Studi Code</div>
+        <div className="text">Visual Studio Code</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

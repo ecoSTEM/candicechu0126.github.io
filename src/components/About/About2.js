@@ -42,6 +42,7 @@ function About2() {
               </div>
               <li>Business Information Collection</li>
               <li>Web / Mobile Application Testing</li>
+              <li>Business Analysis</li>
             </ul>
           </div>
         </div>
@@ -55,18 +56,26 @@ function About2() {
                 Youth Global Network (Jun 1, 2021-Present)
               </div>
               <li>Support of software platform and design recommendation</li>
-              <li>Test education platform</li>
+              <li>Test ICT curricula for education platform</li>
+              <li>
+                Develop solution to the problems and implementation of STEM
+                curriculum
+              </li>
             </ul>
           </div>
           <div style={{ flex: 1 }}>
             <ul
               style={{ textAlign: "justify", justifyContent: "space-around" }}
             >
-              <h4>Research and Techer Assistant</h4>
+              <h4>Research and Teacher Assistant</h4>
               <div style={styles.textName}>
                 Youth Global Network (Sept 1, 2021-Present)
               </div>
               <li>Assist in software maintenance of youCodia products</li>
+              <li>
+                Contribute to the design and development of new features in
+                youCodia system
+              </li>
             </ul>
           </div>
         </div>
