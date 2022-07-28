@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import editor from "../../Assets/Projects/fyp.png";
 import powerFitness from "../../Assets/Projects/fyp.png";
 import studentkit from "../../Assets/Projects/studentkit.png";
 import bin from "../../Assets/Projects/bin.png";
 import petcarrier from "../../Assets/Projects/petcarrier.png";
+import ibsp from "../../Assets/Projects/IBSP.png";
+import aiBus from "../../Assets/Projects/AIbus.png";
 import styled from "styled-components";
 
 export const Description = styled.div`
@@ -28,14 +29,13 @@ function Projects() {
               imgPath={powerFitness}
               isBlog={false}
               title="Power Fitness"
-              description={
-                <Description>
-                  With our website that solves health problems during the period
-                  of COVID-19, people could keep their states of both mental and
-                  physical health by conducting equipment-free exercises at home
-                  and avoiding injuries caused by a lack of fitness expertise.
-                </Description>
-              }
+              // description={
+              //   <div>
+              //     <Description>AI</Description>
+              //     <Description>Sport Detection</Description>
+              //     <Description>AI</Description>
+              //   </div>
+              // }
               data="/powerfitness"
             />
           </Col>
@@ -45,19 +45,19 @@ function Projects() {
               imgPath={bin}
               isBlog={false}
               title="Smart Garbage Bin"
-              description={<Description>Make Smart Life</Description>}
+              // description={<Description>Make Smart Life</Description>}
               data="/smartbin"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={aiBus}
               isBlog={false}
               title="Auto Driving Shuttle Bus"
-              description={
-                <Description>Say goodbye for drive after drink</Description>
-              }
+              // description={
+              //   <Description>Say goodbye for drive after drink</Description>
+              // }
               data="/autobus"
             />
           </Col>
@@ -67,10 +67,22 @@ function Projects() {
               imgPath={studentkit}
               isBlog={false}
               title="Student Kit"
-              description={
-                <Description>Say goodbye for drive after drink</Description>
-              }
+              // description={
+              //   <Description>Say goodbye for drive after drink</Description>
+              // }
               data="/studentkit"
+            ></ProjectCard>
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ibsp}
+              isBlog={false}
+              title="Develop Image Abnormal Detection for Surveillance System"
+              // description={
+              //   <Description>Say goodbye for drive after drink</Description>
+              // }
+              data="/ibsp"
             ></ProjectCard>
           </Col>
 
@@ -79,7 +91,7 @@ function Projects() {
               imgPath={petcarrier}
               isBlog={false}
               title="Smart Pet Carrier"
-              description={<Description>Go out with your pet</Description>}
+              // description={<Description>Go out with your pet</Description>}
               data="/petcarrier"
             />
           </Col>

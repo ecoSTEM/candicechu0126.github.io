@@ -22,6 +22,7 @@ import PowerFitness from "../src/components/Projects/PowerFitness";
 import SmartBin from "../src/components/Projects/SmartBin";
 import StudentKit from "../src/components/Projects/StudentKit";
 import PetCarrier from "../src/components/Projects/PetCarrier";
+import SurveillanceSystem from "../src/components/Projects/SurveillanceSystem";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -52,6 +53,7 @@ function App() {
           <Route path="/smartbin" element={<SmartBin />} />
           <Route path="/studentkit" element={<StudentKit />} />
           <Route path="/petcarrier" element={<PetCarrier />} />
+          <Route path="/ibsp" element={<SurveillanceSystem />} />
         </Routes>
         <Footer />
       </div>
