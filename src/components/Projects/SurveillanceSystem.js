@@ -6,20 +6,20 @@ import PorjectDesign from "../../Assets/Projects/projectDesign_ibsp.png";
 
 const Title = styled.div`
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   color: #7a87ff;
   font-size: 24px;
 `;
 
 const SubTitle = styled.div`
   text-align: left;
-  padding: 5px;
+  padding: 10px;
   font-size: 20px;
 `;
 
 const Abstract = styled.div`
   text-align: justify;
-  padding: 5px;
+  padding: 10px;
   color: whitesmoke;
 `;
 
